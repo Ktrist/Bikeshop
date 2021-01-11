@@ -6,7 +6,7 @@ var options = {
     useNewUrlParser: true,
 }
 
-mongoose.connect('mongodb+srv://test:cqt6ViLwNXtA4HI7@cluster0.9xbpy.mongodb.net/bikeshop?retryWrites=true&w=majority',
+mongoose.connect('URI_BDD',
     options,
     function(err){
         console.log(err);
